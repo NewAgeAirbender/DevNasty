@@ -10,47 +10,47 @@ mongoose.connect(
 
 const quoteSeed = [
   {
-    content: "'You're really cute for an engineer'",
+    content: "You're really cute for an engineer",
     votes: 0,
     isAppropriate: true
   },
   {
-    content: "'Wow! You're pretty good at this for a woman!'",
+    content: "Wow! You're pretty good at this for a woman!",
     votes: 0,
     isAppropriate: true
   },
   {
-    content: "'You know, that happens to men too'",
+    content: "You know, that happens to men too",
     votes: 0,
     isAppropriate: true
   },
   {
-    content: "'Can you show me where the developers work?'",
+    content: "Can you show me where the developers work?",
     votes: 0,
     isAppropriate: true
   },
   {
-    content: "'Most girls aren’t into this kind of stuff.'",
+    content: "Most girls aren’t into this kind of stuff.",
     votes: 0,
     isAppropriate: true
   },
   {
-    content: "'You got it! Clever girl!'",
+    content: "You got it! Clever girl!",
     votes: 0,
     isAppropriate:true 
   },
   {
-    content: "'It’s not ‘P.C.’ to say this, but…'",
+    content: "It’s not ‘P.C.’ to say this, but…",
     votes: 0,
     isAppropriate:true 
   },
   {
-    content: "'No, when I complain about ‘geek girls,’ I don’t mean you. You’re a real geek.'",
+    content: "No, when I complain about ‘geek girls,’ I don’t mean you. You’re a real geek.",
     votes: 0,
     isAppropriate:true 
   },
   {
-    content: "'You’re a girl, but you’re not, like, a girl-girl, y’know?'",
+    content: "You’re a girl, but you’re not, like, a girl-girl, y’know?",
     votes: 0,
     isAppropriate:true 
   }

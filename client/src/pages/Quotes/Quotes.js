@@ -5,7 +5,7 @@ import API from "../../utils/API";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
-import { TextArea, FormBtn } from "../../components/Form";
+import { Input, FormBtn } from "../../components/Form";
 
 class Quotes extends Component {
   state = {
@@ -22,7 +22,8 @@ class Quotes extends Component {
   loadQuotes = () => {
     API.getQuotes()
       .then(res =>
-        this.setState({ quotes: res.data, content: "", votes: "", isAppropriate: "" })
+        this.setState({ quotes: res.data, content: "", votes: "", isAppropriate: "" }),
+      console.log("Got here")
       )
       .catch(err => console.log(err));
   };
@@ -34,6 +35,7 @@ class Quotes extends Component {
   };
 
   handleInputChange = event => {
+    console.log("Handling shit");
     const { name, value } = event.target;
     this.setState({
       [name]: value
@@ -42,6 +44,8 @@ class Quotes extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
+    console.log("Did submit shit");
+    console.log(this.state.content);
     if (this.state.content) {
       API.saveQuote({
         content: this.state.content,
@@ -62,10 +66,10 @@ class Quotes extends Component {
               <h1>What Bullshit Have You Heard?</h1>
             </Jumbotron>
             <form>       
-              <TextArea
+              <Input
                 value={this.state.content}
                 onChange={this.handleInputChange}
-                name="quote"
+                name="content"
                 placeholder="Quote (required)"
               />
               <FormBtn
