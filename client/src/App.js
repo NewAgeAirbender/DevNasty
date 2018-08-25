@@ -5,20 +5,7 @@ import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import { Button, Navbar, NavItem, NavLink, NavbarBrand } from 'reactstrap';
 
-// const App = () => (
-//   <Router>
-//     <div>
-//       <Nav />
-//       <Switch>
-//         <Route exact path="/" component={Quotes} />
-//         <Route exact path="/quotes" component={Quotes} />
-//         <Route component={NoMatch} />
-//       </Switch>
-//     </div>
-//   </Router>
-// );
 
-// export default App;
 
 class App extends Component {
   goTo(route) {
