@@ -1,6 +1,6 @@
 const db = require("../models");
 
-// Defining methods for the quotesController
+// Defining methods for the jobsController
 module.exports = {
   findAll: function(req, res) {
     db.Quote
