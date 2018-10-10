@@ -10,7 +10,9 @@ class Quotes extends Component {
   state = {
     quotes: [],
     content: "",
+    //wanted to add a voting system so people could like their favorites
     votes: "",
+    //wanted a way to be able to pull content submitted by trolls
     isAppropriate: ""
   };
 
