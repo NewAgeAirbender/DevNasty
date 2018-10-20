@@ -50,6 +50,11 @@ const quoteSeed = [
     isAppropriate:true 
   },
   {
+    content: "No, I can't say it. You'll just get offended.",
+    votes: 0,
+    isAppropriate:true 
+  },
+  {
     content: "You’re a girl, but you’re not, like, a girl-girl, y’know?",
     votes: 0,
     isAppropriate:true 
