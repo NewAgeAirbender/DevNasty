@@ -5804,7 +5804,7 @@ react-scripts@1.0.14:
     sw-precache-webpack-plugin "0.11.4"
     url-loader "0.5.9"
     webpack "3.5.1"
-    webpack-dev-server "2.8.2"
+    webpack-dev-server ">=3.1.11"
     webpack-manifest-plugin "1.2.1"
     whatwg-fetch "2.0.3"
   optionalDependencies:
@@ -7174,9 +7174,9 @@ webpack-dev-middleware@^1.11.0:
     range-parser "^1.0.3"
     time-stamp "^2.0.0"
 
-webpack-dev-server@2.8.2:
+webpack-dev-server@3.1.11:
   version "2.8.2"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-2.8.2.tgz#abd61f410778cc4c843d7cebbf41465b1ab7734c"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.1.11.tgz#abd61f410778cc4c843d7cebbf41465b1ab7734c"
   dependencies:
     ansi-html "0.0.7"
     array-includes "^3.0.3"
